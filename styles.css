@@ -1,0 +1,39 @@
+.agenda {
+    border: 1px solid black;
+  }
+
+/* Dates */
+.agenda .agenda-date { 
+    border: 1px solid black;
+    width: 170px; 
+}
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: right;
+  margin-right: 10px;
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em;
+}
+
+
+/* Times */
+.agenda .agenda-time { 
+    border: 1px solid black;
+    width: 140px;
+} 
+
+
+/* Events */
+.agenda .agenda-events { border: 1px solid black;
+ } 
+.agenda .agenda-events .agenda-event {
+    
+ } 
+
+@media (max-width: 767px) {
+    
+}
